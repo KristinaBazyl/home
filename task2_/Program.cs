@@ -4,7 +4,7 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-System.Console.WriteLine("введите первое число");
+Console.WriteLine("введите первое число");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите второе число");
 int num2 = Convert.ToInt32(Console.ReadLine());
