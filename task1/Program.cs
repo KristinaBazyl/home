@@ -20,4 +20,3 @@
     Console.WriteLine("Нет");
  }
  
-
