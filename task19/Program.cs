@@ -1,15 +1,5 @@
 ﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом
-// bool Palindrom(string num)
-// {  
-//     for (int first = 0, last = num.Length - 1; first < last; ++first, --last)
-//     {
-//         if (num[first] != num[last])
-//         {
-//             return false;
-//         }
-//     }
 
-    // return true;
 
 
 int Palindrom(int num)
