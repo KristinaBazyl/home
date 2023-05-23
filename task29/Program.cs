@@ -1,4 +1,5 @@
-﻿int[] arrayN (int size)
+﻿//  Напишите программу, которая задаёт массив из N элементов и выводит их на экран.
+int[] arrayN (int size)
 {
     int[] res = new int[size];
    
