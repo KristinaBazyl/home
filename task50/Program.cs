@@ -36,8 +36,8 @@ string ElementArray(int[,] array, int number)
         }
 
     }
- if (res.Length>0) return res;
- else return $"{number} такого числа в массиве нет";
+if (res.Length == 0) res =  $"{number} такого числа в массиве нет";
+ return res;
 
 }
 
