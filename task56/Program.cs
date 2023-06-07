@@ -50,6 +50,7 @@ Console.WriteLine("Введите количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
 int cols = Convert.ToInt32(Console.ReadLine());
+
 int[,] array = new int[rows, cols];
 
 FillArray(array);
