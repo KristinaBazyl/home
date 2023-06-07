@@ -1,17 +1,15 @@
-﻿// Задача 66: Задайте значения M и N. Напишите программу, 
-// которая найдёт сумму натуральных элементов в промежутке от M до N.
+﻿// Задача 64: Задайте значение N. Напишите программу, которая выведет все 
+// натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
 
 
-int SumNum(int m, int n)
+
+void PrintNum(int num)
 {
-    if (m == n) return m;
-    int sum = m + SumNum(m + 1, n);
-    return sum;
+    Console.Write(num + " ");
+    if (num > 1) PrintNum(num - 1);
 }
 
-System.Console.WriteLine("Введите первое число M:");
-int m = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число N:");
-int n = Convert.ToInt32(Console.ReadLine());
-int sum = SumNum(m, n);
-System.Console.WriteLine($"Сумма натуральных чисел от {m} до {n} равна: {sum}");
+Console.WriteLine("Введите целое число:");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Натуральные числа в промежутке от {num} до 1: ");
+PrintNum(num);
